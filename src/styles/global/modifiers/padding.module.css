@@ -1,0 +1,4 @@
+@import '../customProperties.module.css';
+.padding--all {
+	padding: var(--space);
+}

@@ -1,0 +1,30 @@
+:root {
+	--baseUnit: 18;
+
+	/* Colors */
+	--textDefaultRGB: 33, 47, 56;
+	--C_textDefault: rgba(var(--textDefaultRGB), .87);
+	--C_yellow: #FFF565;
+
+	/* Type families */
+	--displayFont: Times;
+	--bodyFont: Helvetica;
+
+	/* Type sizes 
+	   Scale: 3:4
+	*/
+	--FS_body: 1rem;     /*1st step of scale*/
+	--FS_big: 2.369rem;  /*3rd step of scale*/
+	--FS_hero: 4.209rem; /*5th step of scale*/
+
+	/* Type weights */
+	--W_bold: bold;
+	--W_normal: normal;
+
+	/* Line heights */
+	--lineHeight: 1.5;
+	--lineHeight--small: 1.1;
+
+	/* Spacing */
+	--space: 1rem;
+}

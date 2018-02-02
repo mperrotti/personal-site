@@ -1,0 +1,4 @@
+@import '../../global/customProperties.module.css';
+@import './hero.module.css';
+@import './currently.module.css';
+@import './aboutAndContact.module.css';

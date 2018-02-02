@@ -1,0 +1,5 @@
+@import '../customProperties.module.css';
+
+.chunk {
+	padding-bottom: var(--space);
+}

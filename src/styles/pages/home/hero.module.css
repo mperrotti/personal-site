@@ -1,0 +1,40 @@
+.hero {
+	background: var(--C_yellow);
+}
+
+.hero-copy {
+	grid-column: 1 / span 4;
+}
+
+.hero-copy--headlineStart {
+	align-self: end;
+	grid-row: 1;
+}
+
+.hero-copy--headlineEnd {
+	grid-row: 3;
+}
+
+.hero-copy--body {
+	align-self: center;
+	grid-row: 2;
+}
+
+.hero-portrait {
+	align-self: center;
+	grid-column: 5 / -1;
+	grid-row: span 3;
+	justify-self: center;
+	max-height: 80%;
+	max-width: 100%;
+}
+
+@media (min-width: 480px) {
+	.hero-copy--headlineStart {
+		transform: translateX(4vw);
+	}
+
+	.hero-copy--headlineEnd {
+		transform: translateX(10vw);
+	}
+}

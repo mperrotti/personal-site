@@ -1,0 +1,14 @@
+@import '../customProperties.module.css';
+
+.text--big,
+.text--hero {
+	line-height: var(--lineHeight--small);
+}
+
+.text--big {
+	font-size: var(--FS_big);
+}
+
+.text--hero {
+	font-size: var(--FS_hero);
+}
