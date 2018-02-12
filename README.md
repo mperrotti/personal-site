@@ -1,13 +1,19 @@
-# gatsby-starter-default
-The default Gatsby starter
+# WIP - my personal site
+A small site with some basic info about myself. Still a work in progress.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## To-do
+**v0:**
+[] Deploy and get new domain
+[] Finalize and license webfonts
+[] Update social links
+[] Wrap text around clip-mask for mobile header
+[] Add link to old website
+[] Add modal to old site that links to new site unless you’ve already come from the new site
+[] rm inlineBlockList styles
+**v1:**
+[] Nicer header bg
+[] Configure blog setup
+[] Create blog-related templates (post listing, post)
+[] Style the blog
+[] Render blog module onto homepage
+[] Optimize the way icons are rendered
