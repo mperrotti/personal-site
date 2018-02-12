@@ -2,27 +2,27 @@ const socialMediaData = [
 	{
 		name: 'LinkedIn',
 		iconShape: 'linkedIn',
-		link: 'http://linkedin.com'
+		link: 'https://www.linkedin.com/in/michael-perrotti-81402572/'
 	},
 	{
 		name: 'Github',
 		iconShape: 'github',
-		link: 'http://github.com'
+		link: 'https://github.com/mperrotti'
 	},
 	{
 		name: 'Dribbble',
 		iconShape: 'dribbble',
-		link: 'http://dribbble.com'
+		link: 'https://dribbble.com/mperrotti'
 	},
 	{
 		name: 'Instagram',
 		iconShape: 'instagram',
-		link: 'http://instagram.com'
+		link: 'https://www.instagram.com/mperrotti_/'
 	},
 	{
 		name: 'Twitter',
 		iconShape: 'twitter',
-		link: 'http://twitter.com'
+		link: 'https://twitter.com/mperrotti'
 	},
 
 ];
