@@ -1,3 +1,5 @@
+@import '../../global/customProperties.module.css';
+
 :root {
 	--overlapOffsetAmount: calc(var(--spaceSection) * 0.75);
 }

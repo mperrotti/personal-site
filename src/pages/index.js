@@ -51,9 +51,6 @@ const styles = Object.assign({},
 console.log('styles');
 console.log(styles);
 
-// console.log('homeStyles');
-// console.log(homeStyles);
-
 console.log('styles');
 console.log(styles);
 
