@@ -23,7 +23,6 @@ const styles = Object.assign({},
 const IndexPage = () => {
 	return (
 		<div>
-
 			<header className={`
 				${styles['hero']}
 				${styles['section']}
