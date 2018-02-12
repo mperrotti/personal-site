@@ -23,13 +23,13 @@ const styles = Object.assign({},
 );
 
 console.log('boundsStyles');
-console.log(boundsStyles);
+console.log(boundsStyles.bounds);
 
-console.log('homeStyles');
-console.log(homeStyles);
+// console.log('homeStyles');
+// console.log(homeStyles);
 
-console.log('styles');
-console.log(styles);
+// console.log('styles');
+// console.log(styles);
 
 const IndexPage = () => {
 	return (
@@ -43,7 +43,7 @@ const IndexPage = () => {
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
 					${styles['siteGrid--rows']}
-					${boundsStyles['bounds']}
+					${boundsStyles.bounds}
 					${styles['heroWrapper']}
 				`}>
 					<h2
@@ -95,7 +95,7 @@ const IndexPage = () => {
 					/>
 				</div>
 			</header>
-			<section className={boundsStyles['bounds']}>
+			<section className={boundsStyles.bounds} data-something={boundsStyles.bounds}>
 				<div className={`
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
@@ -160,7 +160,7 @@ const IndexPage = () => {
 				</div>
 			</section>
 			<section className={styles['metaInfo']}>
-				<div className={boundsStyles['bounds']}>
+				<div className={boundsStyles.bounds}>
 					<div className={`
 						${styles['siteGrid']}
 						${styles['siteGrid--columns']}
