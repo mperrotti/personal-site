@@ -43,7 +43,7 @@ const IndexPage = () => {
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
 					${styles['siteGrid--rows']}
-					${styles['bounds']}
+					${boundsStyles['bounds']}
 					${styles['heroWrapper']}
 				`}>
 					<h2
@@ -95,7 +95,7 @@ const IndexPage = () => {
 					/>
 				</div>
 			</header>
-			<section className={styles['bounds']}>
+			<section className={boundsStyles['bounds']}>
 				<div className={`
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
@@ -160,7 +160,7 @@ const IndexPage = () => {
 				</div>
 			</section>
 			<section className={styles['metaInfo']}>
-				<div className={styles['bounds']}>
+				<div className={boundsStyles['bounds']}>
 					<div className={`
 						${styles['siteGrid']}
 						${styles['siteGrid--columns']}
