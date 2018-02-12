@@ -8,19 +8,28 @@ import portrait from '../../static/assets/portrait.png';
 import activeProjects from '../utils/activeProjects';
 import socialMediaData from '../utils/socialMediaData';
 
-import homeStyles from '../styles/pages/home/home.module.css';
-import modifierStyles from '../styles/global/modifiers/index.module.css';
+import currentlyStyles from '../styles/pages/home/currently.module.css';
+import heroStyles from '../styles/pages/home/hero.module.css';
+import metaInfoStyles from '../styles/pages/home/metaInfo.module.css';
+
+import displayStyles from '../styles/global/modifiers/display.module.css';
+import paddingStyles from '../styles/global/modifiers/padding.module.css';
+import widthStyles from '../styles/global/modifiers/width.module.css';
 
 import boundsStyles from '../styles/global/layout/bounds.module.css';
 import listStyles from '../styles/global/layout/list.module.css';
 import sectionStyles from '../styles/global/layout/section.module.css';
 import siteGridStyles from '../styles/global/layout/siteGrid.module.css';
 
-import typeStyles from '../styles/global/typography/index.module.css';
+import typeCompositionStyles from '../styles/global/typography/composition.module.css';
+import scaleStyles from '../styles/global/typography/scale.module.css';
+import typeStyles from '../styles/global/typography/styles.module.css';
 
 const styles = Object.assign({},
 	// page-specific styles
-	homeStyles,
+	currentlyStyles,
+	heroStyles,
+	metaInfoStyles,
 
 	// layout-specific styles
 	boundsStyles,
@@ -29,14 +38,18 @@ const styles = Object.assign({},
 	siteGridStyles,
 
 	// type-specific styles
+	typeCompositionStyles,
+	scaleStyles,
 	typeStyles,
 
 	// modifier styles
-	modifierStyles,
+	displayStyles,
+	paddingStyles,
+	widthStyles
 );
 
-console.log('boundsStyles');
-console.log(boundsStyles.bounds);
+console.log('styles');
+console.log(styles);
 
 // console.log('homeStyles');
 // console.log(homeStyles);
@@ -56,7 +69,7 @@ const IndexPage = () => {
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
 					${styles['siteGrid--rows']}
-					${boundsStyles.bounds}
+					${styles['bounds']}
 					${styles['heroWrapper']}
 				`}>
 					<h2
@@ -108,7 +121,7 @@ const IndexPage = () => {
 					/>
 				</div>
 			</header>
-			<section className={boundsStyles.bounds}>
+			<section className={styles['bounds']}>
 				<div className={`
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
@@ -173,7 +186,7 @@ const IndexPage = () => {
 				</div>
 			</section>
 			<section className={styles['metaInfo']}>
-				<div className={boundsStyles.bounds}>
+				<div className={styles['bounds']}>
 					<div className={`
 						${styles['siteGrid']}
 						${styles['siteGrid--columns']}
