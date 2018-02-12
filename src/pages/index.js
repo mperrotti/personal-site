@@ -13,12 +13,23 @@ import modifierStyles from '../styles/global/modifiers/index.module.css';
 import layoutStyles from '../styles/global/layout/index.module.css';
 import typeStyles from '../styles/global/typography/index.module.css';
 
+import boundsStyles from '../styles/global/layout/bounds.module.css';
+
 const styles = Object.assign({},
 	homeStyles,
 	layoutStyles,
 	typeStyles,
 	modifierStyles,
 );
+
+console.log('boundsStyles');
+console.log(boundsStyles);
+
+console.log('homeStyles');
+console.log(homeStyles);
+
+console.log('styles');
+console.log(styles);
 
 const IndexPage = () => {
 	return (
