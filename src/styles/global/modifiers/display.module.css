@@ -1,0 +1,19 @@
+@import '../customProperties.module.css';
+
+.display--inline {
+	display: inline;
+}
+
+.display--none {
+	display: none;
+}
+
+@media (--medium-viewport) {
+	.atMedium_display--none {
+		display: none;
+	}
+
+	.atMedium_display--inline {
+		display: inline;
+	}
+}

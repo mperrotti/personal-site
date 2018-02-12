@@ -1,4 +1,17 @@
 @import '../customProperties.module.css';
-.padding--all {
-	padding: var(--space);
+
+.paddingBottom--half {
+	padding-bottom: calc(var(--space) / 2) !important;
+}
+
+.paddingBottom {
+	padding-bottom: var(--space) !important;
+}
+
+.paddingBottom--double {
+	padding-bottom: calc(var(--space) * 2) !important;
+}
+
+.flush--bottom {
+	padding-bottom: 0 !important;
 }

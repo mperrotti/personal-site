@@ -1,21 +1,31 @@
 :root {
-	--baseUnit: 18;
+	--baseUnit: 16;
+	--baseUnitLarge: 24; /* postcss will not let me simply redfine `baseUnit` */
 
 	/* Colors */
-	--textDefaultRGB: 33, 47, 56;
-	--C_textDefault: rgba(var(--textDefaultRGB), .87);
+	--textDefaultRGB: 33, 47, 56; /*rgb(41,60,77)*/
+	--blackRGB: 15, 13, 19;
+	--C_textDefault: rgb(var(--textDefaultRGB));
+	--C_textSecondary: rgba(var(--textDefaultRGB), .6);
 	--C_yellow: #FFF565;
+	--C_white: #FFFFFF;
+	--C_blue: #0374dd; /*#0374dd #1658fe // #122bee #362ad4*/
+	--C_black: rgb(var(--blackRGB));
+	--C_border: rgba(var(--blackRGB), .12);
 
 	/* Type families */
 	--displayFont: Times;
-	--bodyFont: Helvetica;
+	--bodyFont: 'Roboto', sans-serif;
 
 	/* Type sizes 
 	   Scale: 3:4
 	*/
-	--FS_body: 1rem;     /*1st step of scale*/
-	--FS_big: 2.369rem;  /*3rd step of scale*/
-	--FS_hero: 4.209rem; /*5th step of scale*/
+	--FS_small: .75rem;  /* -1st step of scale */
+	--FS_body: 1rem;     /* 1st step of scale */
+	--FS_big: 1.333rem;  /* 2nd step of scale */
+	/* --FS_headline: 2.369rem;  /* 3rd step of scale */
+	--FS_hero: 3.157rem; /* 4th step of scale */
+	/* --FS_hero: 4.209rem;      /* 5th step of scale */
 
 	/* Type weights */
 	--W_bold: bold;
@@ -27,4 +37,14 @@
 
 	/* Spacing */
 	--space: 1rem;
+	--spaceSection: 12vmin;
+
+	/* Breakpoints */
+	--mediumBreakpoint: 700;
+	--largeBreakpoint: 950;
 }
+
+/* no custom properties in `custom-media` :( */
+@custom-media --small-viewport (max-width: 659px);
+@custom-media --medium-viewport (min-width: 700px);
+@custom-media --large-viewport (min-width: 950px);

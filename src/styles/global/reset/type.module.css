@@ -1,6 +1,5 @@
 html {
 	color: var(--C_textDefault);
-	font-size: calc(var(--baseUnit)*1px);
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-rendering: optimizeLegibility;
@@ -30,4 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: var(--W_normal);
 	margin: 0;
 	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }

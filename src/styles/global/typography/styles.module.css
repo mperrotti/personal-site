@@ -3,3 +3,19 @@
 .text--accentFace {
 	font-family: var(--displayFont);
 }
+
+.text--subtleHeader {
+	color: var(--C_textSecondary);
+	font-size: var(--FS_small);
+	letter-spacing: calc(var(--FS_small) / 8);
+	padding-bottom: calc(var(--FS_small) / 2);
+	text-transform: uppercase;
+}
+
+.text--accentLink {
+	color: var(--C_blue);
+}
+
+.inverted {
+	color: var(--C_white);
+}

@@ -1,0 +1,13 @@
+.inlineBlockList {
+	margin: 0;
+	padding: 0;
+}
+
+.inlineBlockList > li {
+	padding-right: var(--space);
+	display: inline-block;
+
+	&:last-child {
+		padding-right: 0;
+	}
+}
