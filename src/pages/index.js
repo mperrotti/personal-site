@@ -10,15 +10,28 @@ import socialMediaData from '../utils/socialMediaData';
 
 import homeStyles from '../styles/pages/home/home.module.css';
 import modifierStyles from '../styles/global/modifiers/index.module.css';
-import layoutStyles from '../styles/global/layout/index.module.css';
-import typeStyles from '../styles/global/typography/index.module.css';
 
 import boundsStyles from '../styles/global/layout/bounds.module.css';
+import listStyles from '../styles/global/layout/list.module.css';
+import sectionStyles from '../styles/global/layout/section.module.css';
+import siteGridStyles from '../styles/global/layout/siteGrid.module.css';
+
+import typeStyles from '../styles/global/typography/index.module.css';
 
 const styles = Object.assign({},
+	// page-specific styles
 	homeStyles,
-	layoutStyles,
+
+	// layout-specific styles
+	boundsStyles,
+	listStyles,
+	sectionStyles,
+	siteGridStyles,
+
+	// type-specific styles
 	typeStyles,
+
+	// modifier styles
 	modifierStyles,
 );
 
@@ -28,8 +41,8 @@ console.log(boundsStyles.bounds);
 // console.log('homeStyles');
 // console.log(homeStyles);
 
-// console.log('styles');
-// console.log(styles);
+console.log('styles');
+console.log(styles);
 
 const IndexPage = () => {
 	return (
@@ -95,7 +108,7 @@ const IndexPage = () => {
 					/>
 				</div>
 			</header>
-			<section className={boundsStyles.bounds} data-something={boundsStyles.bounds}>
+			<section className={boundsStyles.bounds}>
 				<div className={`
 					${styles['siteGrid']}
 					${styles['siteGrid--columns']}
