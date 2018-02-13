@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import resetStyles from '../styles/global/reset/index.module.css';
+import stanleyFont from '../../static/assets/stanley.css';
 
 const TemplateWrapper = ({ children }) => {
 	return(
