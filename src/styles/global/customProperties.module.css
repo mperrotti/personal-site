@@ -14,7 +14,7 @@
 	--C_border: rgba(var(--blackRGB), .12);
 
 	/* Type families */
-	--displayFont: Times;
+	--displayFont: 'Stanley', Georgia, Times;
 	--bodyFont: 'Roboto', sans-serif;
 
 	/* Type sizes 
