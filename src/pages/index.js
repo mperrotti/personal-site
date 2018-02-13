@@ -8,17 +8,51 @@ import portrait from '../../static/assets/portrait.png';
 import activeProjects from '../utils/activeProjects';
 import socialMediaData from '../utils/socialMediaData';
 
-import homeStyles from '../styles/pages/home/home.module.css';
-import modifierStyles from '../styles/global/modifiers/index.module.css';
-import layoutStyles from '../styles/global/layout/index.module.css';
-import typeStyles from '../styles/global/typography/index.module.css';
+import currentlyStyles from '../styles/pages/home/currently.module.css';
+import heroStyles from '../styles/pages/home/hero.module.css';
+import metaInfoStyles from '../styles/pages/home/metaInfo.module.css';
+
+import displayStyles from '../styles/global/modifiers/display.module.css';
+import paddingStyles from '../styles/global/modifiers/padding.module.css';
+import widthStyles from '../styles/global/modifiers/width.module.css';
+
+import boundsStyles from '../styles/global/layout/bounds.module.css';
+import listStyles from '../styles/global/layout/list.module.css';
+import sectionStyles from '../styles/global/layout/section.module.css';
+import siteGridStyles from '../styles/global/layout/siteGrid.module.css';
+
+import typeCompositionStyles from '../styles/global/typography/composition.module.css';
+import scaleStyles from '../styles/global/typography/scale.module.css';
+import typeStyles from '../styles/global/typography/styles.module.css';
 
 const styles = Object.assign({},
-	homeStyles,
-	layoutStyles,
+	// page-specific styles
+	currentlyStyles,
+	heroStyles,
+	metaInfoStyles,
+
+	// layout-specific styles
+	boundsStyles,
+	listStyles,
+	sectionStyles,
+	siteGridStyles,
+
+	// type-specific styles
+	typeCompositionStyles,
+	scaleStyles,
 	typeStyles,
-	modifierStyles,
+
+	// modifier styles
+	displayStyles,
+	paddingStyles,
+	widthStyles
 );
+
+console.log('styles');
+console.log(styles);
+
+console.log('styles');
+console.log(styles);
 
 const IndexPage = () => {
 	return (

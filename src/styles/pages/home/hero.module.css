@@ -1,3 +1,5 @@
+@import '../../global/customProperties.module.css';
+
 .hero {
 	background: var(--C_yellow);
 }
