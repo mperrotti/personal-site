@@ -6,11 +6,11 @@ A small site with some basic info about myself. Still a work in progress.
 * [x] Set up deployment
 * [x] Get new domain
 * [x] Finalize and license webfonts
-* [ ] Update social links
+* [x] Update social links
 * [x] Wrap text around clip-mask for mobile header
-* [ ] Add link to old website
+* [ ] Add link to old website?
 * [ ] Add modal to old site that links to new site unless you’ve already come from the new site
-* [ ] rm inlineBlockList styles
+* [x] rm inlineBlockList styles
 
 **v1:**
 * [ ] Nicer header bg
