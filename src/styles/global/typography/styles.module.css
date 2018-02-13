@@ -16,6 +16,14 @@
 	color: var(--C_blue);
 }
 
+.text--accentLink--inverted {
+	color: var(--C_blueInverted);
+}
+
+.text--accentLink:hover {
+	text-decoration: underline;
+}
+
 .inverted {
 	color: var(--C_white);
 }

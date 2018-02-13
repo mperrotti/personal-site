@@ -48,13 +48,8 @@ const styles = Object.assign({},
 	widthStyles
 );
 
-console.log('styles');
-console.log(styles);
-
-console.log('styles');
-console.log(styles);
-
 const IndexPage = () => {
+	const invertedLinkClassnames = `${styles['text--accentLink']} ${styles['text--accentLink--inverted']}`;
 	return (
 		<div>
 
@@ -138,9 +133,9 @@ const IndexPage = () => {
 								${styles['list']}
 								${styles['list--bordered']}
 							`}>
-								<li>Living in Brooklyn</li>
-								<li>Working at Meetup</li>
-								<li>Not looking for new side projects</li>
+								<li>👨‍💻 Working at Meetup</li>
+								<li>🌆 Living in Brooklyn</li>
+								<li>😅 Too busy for new side projects</li>
 							</ul>
 						</aside>
 					<div className={`
@@ -152,7 +147,7 @@ const IndexPage = () => {
 							${styles['runningText']}
 							${styles['paddingBottom']}
 						`}>
-							I’m working on tools for designers and tools for engineers to help us ship new things better and faster than we ever have before. So far, a lot of this work has been driven by the design system I established and maintain with Adam Detrick.
+							I’m working on tools to help designers and tools for engineers <a href="https://medium.com/meetup/web-redesign-explained-5f5a4ae7e420" className={styles['text--accentLink']}>ship new things</a> better and faster than we ever have before. So far, most of these tools are pieces of a design system that's been built and maintained by <a href="https://twitter.com/akdetrick" className={styles['text--accentLink']}>Adam Detrick</a> and I.
 						</p>
 					</div>
 					<div className={styles['siteGrid-mainArea']}>
@@ -235,10 +230,10 @@ const IndexPage = () => {
 								About this site
 							</h2>
 							<p>
-								This is a static Github page made with <a href="https://www.gatsbyjs.org/" className={styles['text--accentLink']}>Gatsby</a> and deployed to <a href="https://www.netlify.com/" className={styles['text--accentLink']}>Netlify</a>.
-								The typefaces used are <a href="https://optimo.ch/typefaces_Stanley_all_FontInformation.html" className={styles['text--accentLink']}>Stanley</a> and <a href="https://fonts.google.com/specimen/Roboto" className={styles['text--accentLink']}>Roboto</a>.
-								The portrait is taken from a doodle <a href="http://www.kristencstewart.com/" className={styles['text--accentLink']}>Kristen Stewart</a> (no, not that one) did during a meeting.
-								For more details, check out the source code on <a href="https://github.com/" className={styles['text--accentLink']}>Github</a>.
+								This is a static Github page made with <a href="https://www.gatsbyjs.org/" className={invertedLinkClassnames}>Gatsby</a> and deployed to <a href="https://www.netlify.com/" className={invertedLinkClassnames}>Netlify</a>.
+								The typefaces used are <a href="https://optimo.ch/typefaces_Stanley_all_FontInformation.html" className={invertedLinkClassnames}>Stanley</a> and <a href="https://fonts.google.com/specimen/Roboto" className={invertedLinkClassnames}>Roboto</a>.
+								The portrait is taken from a doodle <a href="https://twitter.com/teeshirts" className={invertedLinkClassnames}>Kristen Stewart</a> (no, not that one) did during a meeting.
+								For more details, check out the source code on <a href="https://github.com/" className={invertedLinkClassnames}>Github</a>.
 							</p>
 						</div>
 					</div>
