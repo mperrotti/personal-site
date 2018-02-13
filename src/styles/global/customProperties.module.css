@@ -10,6 +10,7 @@
 	--C_yellow: #FFF565;
 	--C_white: #FFFFFF;
 	--C_blue: #0374dd; /*#0374dd #1658fe // #122bee #362ad4*/
+	--C_blueInverted: #3BA1FF;
 	--C_black: rgb(var(--blackRGB));
 	--C_border: rgba(var(--blackRGB), .12);
 
