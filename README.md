@@ -3,10 +3,11 @@ A small site with some basic info about myself. Still a work in progress.
 
 ## To-do
 **v0:**
-* [ ] Deploy and get new domain
-* [ ] Finalize and license webfonts
+* [x] Set up deployment
+* [x] Get new domain
+* [x] Finalize and license webfonts
 * [ ] Update social links
-* [ ] Wrap text around clip-mask for mobile header
+* [x] Wrap text around clip-mask for mobile header
 * [ ] Add link to old website
 * [ ] Add modal to old site that links to new site unless you’ve already come from the new site
 * [ ] rm inlineBlockList styles

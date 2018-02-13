@@ -102,8 +102,6 @@ const IndexPage = () => {
 								${styles['atMedium_display--none']}
 							`}
 							src={portrait}
-							width="70"
-							height="70"
 						/>
 						You can call me a designer or you can call me a developer - just don't restrain me to either box. I'm most excited by collaborating with people and organizations doing work on social justice, healthcare, education, and the arts.
 					</p>

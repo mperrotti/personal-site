@@ -1,8 +1,10 @@
+@import '../../global/customProperties.module.css';
+
 .currently-activeProjects {
 	align-self: start;
 }
 
-@media (min-width: 700px) {
+@media (--medium-viewport) {
 	.currently-body {
 		grid-row: 1 / span 2;
 	}
