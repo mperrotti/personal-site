@@ -1,5 +1,9 @@
 @import '../../global/customProperties.module.css';
 
+:root {
+	--portaitClipPath: circle(40% at 50% 40%);
+}
+
 .hero {
 	background: var(--C_yellow);
 }
@@ -33,26 +37,27 @@
 	grid-column: 5 / -1;
 	grid-row: span 3;
 	justify-self: center;
-	/*max-height: 50%;*/
 	max-width: 100%;
 	mix-blend-mode: multiply;
-/*	position: absolute;
-	top: 0;
-	right: 0;*/
-}
-@media (min-width: 600px) {
-	.hero-portrait {
-		/*max-height: 60%;*/
-	}
 }
 
 .hero-portrait--inline {
-	float: right;
+	clip-path: var(--portaitClipPath);
+	float: left;
+	max-width: 5rem;
+	shape-outside: var(--portaitClipPath);
+	margin: 0 var(--space) 0 0;
+}
+
+@media (max-width: 500px) {
+	.hero-portrait--inline {
+		float: right;
+		margin: 0 0 0 var(--space);
+	}
 }
 
 @media (--medium-viewport) {
 	.hero-portrait {
-		/*max-height: 80%;*/
 		position: static;
 	}
 
