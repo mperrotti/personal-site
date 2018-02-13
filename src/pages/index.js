@@ -235,10 +235,10 @@ const IndexPage = () => {
 								About this site
 							</h2>
 							<p>
-								This is a static Github page made with <a href="#" className={styles['text--accentLink']}>Gatsby</a>.
-								The typefaces are <a href="#" className={styles['text--accentLink']}>Headline</a> and <a href="#" className={styles['text--accentLink']}>Body</a>.
-								The portrait is taken from a doodle <a href="#" className={styles['text--accentLink']}>Kristen Stewart</a> (no, not that one) did during a meeting.
-								For more details, check out the source code on <a href="#" className={styles['text--accentLink']}>Github</a>.
+								This is a static Github page made with <a href="https://www.gatsbyjs.org/" className={styles['text--accentLink']}>Gatsby</a> and deployed to <a href="https://www.netlify.com/" className={styles['text--accentLink']}>Netlify</a>.
+								The typefaces used are <a href="https://optimo.ch/typefaces_Stanley_all_FontInformation.html" className={styles['text--accentLink']}>Stanley</a> and <a href="https://fonts.google.com/specimen/Roboto" className={styles['text--accentLink']}>Roboto</a>.
+								The portrait is taken from a doodle <a href="http://www.kristencstewart.com/" className={styles['text--accentLink']}>Kristen Stewart</a> (no, not that one) did during a meeting.
+								For more details, check out the source code on <a href="https://github.com/" className={styles['text--accentLink']}>Github</a>.
 							</p>
 						</div>
 					</div>
