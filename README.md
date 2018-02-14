@@ -8,6 +8,7 @@ A small site with some basic info about myself. Still a work in progress.
 * [x] Finalize and license webfonts
 * [x] Update social links
 * [x] Wrap text around clip-mask for mobile header
+* [ ] Add GA tracking
 * [ ] Add favicons
 * [ ] Perf audit
 * [ ] a11y audit
