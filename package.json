@@ -5,9 +5,14 @@
   "author": "Mike Perrotti <mperrotti573@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.158",
-    "gatsby-link": "^1.6.34",
+    "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.3",
-    "react-helmet": "^5.2.0"
+    "gatsby-source-filesystem": "^1.4.12",
+    "gatsby-transformer-remark": "^1.7.7",
+    "html-react-parser": "^0.4.1",
+    "raf-schd": "^2.1.0",
+    "react-helmet": "^5.2.0",
+    "react-images-loaded": "^1.1.0"
   },
   "keywords": [
     "gatsby"
