@@ -11,7 +11,7 @@ A small site with some basic info about myself. Still a work in progress.
 * [x] Add modal to old site that links to new site unless you’ve already come from the new site
 * [x] rm inlineBlockList styles
 
-**v1s:**
+**v1:**
 * [ ] Configure blog setup
 * [ ] Create blog-related templates (post listing, post)
 * [ ] Style the blog
