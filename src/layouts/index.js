@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import ReactGA from 'react-ga';
 
 import resetStyles from '../styles/global/reset/index.module.css';
 import stanleyFont from '../../static/assets/stanley.css';
@@ -17,6 +18,8 @@ const TemplateWrapper = ({ children }) => {
 			<div>
 				{children()}
 			</div>
+			{ReactGA.initialize('UA-114413191-1')}
+			{ReactGA.pageview(window.location.pathname + window.location.search)}
 		</div>
 	)
 };
