@@ -12,14 +12,15 @@ A small site with some basic info about myself. Still a work in progress.
 * [x] rm inlineBlockList styles
 
 **v1:**
-* [ ] Configure blog setup
-* [ ] Create blog-related templates (post listing, post)
+* [x] Configure blog setup
+* [ ] Create blog listing template
+* [ ] Create blog post template
 * [ ] Style the blog
 * [ ] Render blog module onto homepage
 * [ ] Nicer header bg
 
 **finishing touches:**
-* [ ] Add GA tracking
+* [x] Add GA tracking
 * [ ] Add favicons
 * [ ] Perf audit
 * [ ] a11y audit
