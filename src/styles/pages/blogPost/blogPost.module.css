@@ -1,0 +1,25 @@
+@import '../../global/customProperties.module.css';
+
+.blogPost ul {
+	display: grid;
+	grid-gap: var(--space);
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-auto-rows: var(--space);
+}
+
+.blogPost li {
+	min-height: 80px;
+}
+
+.blogPost a {
+	color: var(--C_blue);
+}
+
+.blogPost a:hover {
+	text-decoration: underline;
+}
+
+.blogPost img {
+	max-width: 20em;
+	width: 100%;
+}
