@@ -1,0 +1,7 @@
+@import '../customProperties.module.css';
+
+.issueCard {
+	border: 10px solid var(--C_black);
+}
+
+
