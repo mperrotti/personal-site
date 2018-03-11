@@ -19,3 +19,6 @@ date: "2018-03-10"
 
 * [![Women of Glitch](/assets/blogImages/issue4/womensdayglitch.jpg "Women of Glitch")](https://medium.com/glitch/women-always-rule-at-glitch-40cf4ceb2eb9)
 [Women of Glitch](https://medium.com/glitch/women-always-rule-at-glitch-40cf4ceb2eb9)
+
+* [![Death is the Only Certainty in Life - Sebastian ErraZurriz](/assets/blogImages/issue4/deathistheonlycertainty.jpg "Death is the Only Certainty in Life - Sebastian ErraZurriz")](http://www.meetsebastian.com/sebastian-errazuriz-design-art-death-is-the-only-certainity-public-work/)
+[Sebastian ErraZurriz](http://www.meetsebastian.com/sebastian-errazuriz-design-art-death-is-the-only-certainity-public-work/)
