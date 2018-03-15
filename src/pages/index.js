@@ -230,7 +230,7 @@ const IndexPage = () => {
 								About this site
 							</h2>
 							<p>
-								This is a static Github page made with <a href="https://www.gatsbyjs.org/" className={invertedLinkClassnames}>Gatsby</a> and deployed to <a href="https://www.netlify.com/" className={invertedLinkClassnames}>Netlify</a>.
+								This is a static site generated with <a href="https://www.gatsbyjs.org/" className={invertedLinkClassnames}>Gatsby</a> and deployed with <a href="https://www.netlify.com/" className={invertedLinkClassnames}>Netlify</a>.
 								The typefaces used are <a href="https://optimo.ch/typefaces_Stanley_all_FontInformation.html" className={invertedLinkClassnames}>Stanley</a> and <a href="https://fonts.google.com/specimen/Roboto" className={invertedLinkClassnames}>Roboto</a>.
 								The portrait is taken from a doodle <a href="https://twitter.com/teeshirts" className={invertedLinkClassnames}>Kristen Stewart</a> (no, not that one) did during a meeting.
 								For more details, check out the source code on <a href="https://github.com/mperrotti/personal-site" className={invertedLinkClassnames}>Github</a>.
