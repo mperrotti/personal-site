@@ -11,7 +11,7 @@ date: "2018-05-19"
 * [![Akbar and Jeff](/assets/blogImages/issue11/akbarAndJeff.jpg "Matt Groening's cartoon characters, Akbar and Jeff running and holding hands while whistling")](http://lifeinhellarchives.tumblr.com/tagged/akbar-%26-jeff)
 [Akbar and Jeff](http://lifeinhellarchives.tumblr.com/tagged/akbar-%26-jeff)
 
-* [![Keith Haring's 60th](/assets/blogImages/issue11/connectedLab.jpg "Screenshot of the Connected Lab website")](https://www.connectedlab.com/)
+* [![Connected Lab](/assets/blogImages/issue11/connectedLab.jpg "Screenshot of the Connected Lab website")](https://www.connectedlab.com/)
 [Connected Lab website design](https://www.connectedlab.com/)
 
 * [![Pie Menus: A 30 Year Retrospective](/assets/blogImages/issue11/pieMenu.jpg "Screenshot of a NeWS Window Management's radial menu")](https://medium.com/@donhopkins/pie-menus-936fed383ff1)
