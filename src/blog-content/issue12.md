@@ -12,7 +12,7 @@ date: "2018-06-02"
 [Everpress/Amnesty International collaboration](https://everpress.com/)
 
 * [![Gay for Antifa shirt](/assets/blogImages/issue12/gay4Antifa.jpg "A t-shirt that says 'Gay for Antifa")](https://alwaysrestrictions.com/products/i-am-gay-for-antifa-t-shirt)
-[Connected Lab website design](https://alwaysrestrictions.com/products/i-am-gay-for-antifa-t-shirt)
+[Gay for Antifa shirt](https://alwaysrestrictions.com/products/i-am-gay-for-antifa-t-shirt)
 
 * [![No Way Back 2018](/assets/blogImages/issue12/noWayBack.jpg "No Way Back poster with the Interdimensional Transmissions logo")](https://www.residentadvisor.net/events/1067099)
 [No Way Back 2018](https://www.residentadvisor.net/events/1067099)
