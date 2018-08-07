@@ -28,3 +28,4 @@ A small site with some basic info about myself. Still a work in progress.
 * [ ] Add a manifest with a theme color in it
 * [ ] Style text-selection highlight
 * [ ] Optimize the way icons are rendered
+
