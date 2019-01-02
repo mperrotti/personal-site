@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "author": "Mike Perrotti <mperrotti573@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.158",
+    "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-source-filesystem": "^1.4.12",
+    "gatsby-source-filesystem": "^1.5.31",
     "gatsby-transformer-remark": "^1.7.7",
     "html-react-parser": "^0.4.1",
     "raf-schd": "^2.1.0",
@@ -15,15 +15,14 @@
     "react-helmet": "^5.2.0",
     "react-images-loaded": "^1.1.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

@@ -1,11 +1,12 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 import Icon from '../components/Icon';
+import ProjectListing from '../components/ProjectListing';
 
 import portrait from '../../static/assets/portrait.png';
 
 import activeProjects from '../utils/activeProjects';
+import pastProjects from '../utils/pastProjects';
 import socialMediaData from '../utils/socialMediaData';
 
 import currentlyStyles from '../styles/pages/home/currently.module.css';
@@ -133,45 +134,18 @@ const IndexPage = () => {
 								${styles['list']}
 								${styles['list--bordered']}
 							`}>
-								<li>👨‍💻 Working at Meetup</li>
+								<li>👨‍💻 Working at Mesosphere</li>
 								<li>🌆 Living in Brooklyn</li>
 								<li>😅 Too busy for new side projects</li>
 							</ul>
 						</aside>
-					<div className={`
-						${styles['runningText']}
-						${styles['currently-body']}
-						${styles['siteGrid-mainArea']}
-					`}>
-						<p className={`
-							${styles['runningText']}
-							${styles['paddingBottom']}
-						`}>
-							I’m working on tools to help designers and tools for engineers <a href="https://medium.com/meetup/web-redesign-explained-5f5a4ae7e420" className={styles['text--accentLink']}>ship new things</a> better and faster than we ever have before. So far, most of these tools are pieces of a design system that's been built and maintained by <a href="https://twitter.com/akdetrick" className={styles['text--accentLink']}>Adam Detrick</a> and I.
-						</p>
+					<div className={`${styles['siteGrid-mainArea']} ${styles['paddingBottom--double']}`}>
+						<h4 className={styles['text--subtleHeader']}>Active projects</h4>
+						<ProjectListing projects={activeProjects} />
 					</div>
 					<div className={styles['siteGrid-mainArea']}>
-						<h4 className={styles['text--subtleHeader']}>Active projects</h4>
-						<ul>
-							{
-								activeProjects.map((project, i) => {
-									const isLast = i === (activeProjects.length - 1);
-
-									return(
-										<li className={!isLast && styles['paddingBottom--double']}>
-											<h5 className={`
-												${styles['text--accentFace']}
-											`}>
-												<a href={project.url} className={styles['text--accentLink']}>
-													{project.name}
-												</a>
-											</h5>
-											<p className={styles['runningText']}>{project.description}</p>
-										</li>
-									);
-								})
-							}
-						</ul>
+						<h4 className={styles['text--subtleHeader']}>Past projects</h4>
+						<ProjectListing projects={pastProjects} />
 					</div>
 				</div>
 			</section>
