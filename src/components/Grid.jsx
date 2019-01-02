@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import GridItem from './GridItem';
 
@@ -58,6 +59,10 @@ class Grid extends React.Component {
 			</ul>
 		)
 	}
+};
+
+Grid.propTypes = {
+	gridItems: PropTypes.array,
 };
 
 export default Grid;
