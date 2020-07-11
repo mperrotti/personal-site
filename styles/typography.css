@@ -30,6 +30,14 @@ body {
   color: var(--C_blue);
 }
 
+.inlineLink {
+  font-weight: 700;
+}
+
+.inlineLink:hover {
+  color: var(--C_blue);
+}
+
 /* Scale */
 .textScale--big,
 .textScale--hero {

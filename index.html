@@ -5,7 +5,7 @@
   </head>
 
   <body>
-    <header class="heroIntro">
+    <header>
       <div class="heroIntro-wrapper grid section bounds">
         <h1 class="heroIntro-heading font--display textScale--hero">
           <span class="heroIntro-headingText heroIntro-headingText--start"
@@ -29,16 +29,16 @@
         />
       </div>
     </header>
-    <section class="grid section bounds">
-      <aside class="grid-side">
+    <section class="grid grid--stack section bounds">
+      <aside class="grid-side grid-side--stack padBottom--lg">
         <div class="summary-item">👨‍💻 Working at D2iQ</div>
         <div class="summary-item">🌆 Living in Brooklyn</div>
         <div class="summary-item">
           🙋‍♂️ Will volunteer for small non-profits
         </div>
       </aside>
-      <div class="grid-main">
-        <div class="projects-set margin--center runningText">
+      <div class="grid-main grid-main--stack">
+        <div class="projects-set runningText">
           <h3 class="subtleHeader">Active Projects</h3>
           <article class="project">
             <h4 class="font--display">
@@ -54,7 +54,7 @@
           </article>
         </div>
 
-        <div class="projects-set margin--center runningText">
+        <div class="projects-set runningText">
           <h3 class="subtleHeader">Past Projects</h3>
           <article class="project">
             <h4 class="font--display">
@@ -109,53 +109,61 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="grid section bounds">
-        <div class="grid-side footer-contact">
-          <span>Email:</span>
-          <a href="mailto:mperrotti573@gmail.com">mperrotti573@gmail.com</a>
+    <footer class="grid grid--stack section bounds">
+      <div class="grid-main grid-main--stack runningText">
+        <h4 class="textScale--big font--display">
+          About this site
+        </h4>
+      </div>
+      <div class="grid-main grid-main--stack runningText padBottom--lg">
+        <p>
+          This is a static site generated with
+          <a href="https://www.gatsbyjs.org/" class="inlineLink">Gatsby</a>
+          and deployed with
+          <a href="https://www.netlify.com/" class="inlineLink">Netlify</a>. The
+          typefaces used are
+          <a href="https://optimo.ch/typefaces/stanley" class="inlineLink"
+            >Stanley</a
+          >
+          and
+          <a href="https://fonts.google.com/specimen/Roboto" class="inlineLink"
+            >Roboto</a
+          >. The portrait is taken from a doodle
+          <a href="https://twitter.com/teeshirts" class="inlineLink"
+            >Kristen Stewart</a
+          >
+          (no, not that one) did during a meeting. For more details, check out
+          the source code on
+          <a
+            href="https://github.com/mperrotti/personal-site"
+            class="inlineLink"
+            >GitHub</a
+          >.
+        </p>
+      </div>
+      <div class="grid-side grid-side--stack footer-contact">
+        <span>Email:</span>
+        <span>
+          <a href="mailto:mperrotti573@gmail.com" class="inlineLink"
+            >mperrotti573@gmail.com</a
+          >
+        </span>
 
-          <span>LinkedIn:</span>
-          <a href="https://www.linkedin.com/in/michael-perrotti-81402572/"
+        <span>LinkedIn:</span>
+        <span>
+          <a
+            href="https://www.linkedin.com/in/michael-perrotti-81402572/"
+            class="inlineLink"
             >Mike Perrotti</a
           >
+        </span>
 
-          <span>GitHub:</span>
-          <a href="https://github.com/mperrotti">mperrotti</a>
-        </div>
-        <div class="grid-main margin--center runningText">
-          <h4 class="textScale--big font--display">
-            About this site
-          </h4>
-        </div>
-        <div class="grid-main margin--center runningText">
-          <p>
-            This is a static site generated with
-            <a href="https://www.gatsbyjs.org/" class="accentLinkz">Gatsby</a>
-            and deployed with
-            <a href="https://www.netlify.com/" class="accentLinkz">Netlify</a>.
-            The typefaces used are
-            <a href="https://optimo.ch/typefaces/stanley" class="accentLinkz"
-              >Stanley</a
-            >
-            and
-            <a
-              href="https://fonts.google.com/specimen/Roboto"
-              class="accentLinkz"
-              >Roboto</a
-            >. The portrait is taken from a doodle
-            <a href="https://twitter.com/teeshirts" class="accentLinkz"
-              >Kristen Stewart</a
-            >
-            (no, not that one) did during a meeting. For more details, check out
-            the source code on
-            <a
-              href="https://github.com/mperrotti/personal-site"
-              class="accentLinkz"
-              >Github</a
-            >.
-          </p>
-        </div>
+        <span>GitHub:</span>
+        <span
+          ><a href="https://github.com/mperrotti" class="inlineLink"
+            >mperrotti</a
+          ></span
+        >
       </div>
     </footer>
   </body>

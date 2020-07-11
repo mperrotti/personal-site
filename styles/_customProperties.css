@@ -20,7 +20,11 @@
 
   /* Font families */
   --FF_display: "Stanley", Georgia, Times;
-  --FF_body: "Roboto", sans-serif;
+  --FF_body: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  /* Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif */
 
   /* Type sizes 
     Scale: 3:4
@@ -44,7 +48,4 @@
   --measure: 30em;
 }
 
-/* TODO: remove this if I end up coming up with a way to build without media queries */
-/* no custom properties in `custom-media` :( */
 @custom-media --medium-viewport (min-width: 700px);
-@custom-media --large-viewport (min-width: 950px);
