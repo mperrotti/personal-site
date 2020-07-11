@@ -1,0 +1,55 @@
+:root {
+  font-size: var(--rootEm);
+  font-size: clamp(var(--FS_body), 2vw, var(--FS_big));
+}
+
+body {
+  color: var(--C_textDefault);
+  font-family: var(--FF_body);
+  font-feature-settings: "liga", "kern";
+  -moz-font-feature-settings: "liga", "kern";
+  -moz-font-feature-settings: "liga=1, kern=1";
+  -ms-font-feature-settings: "liga", "kern";
+  -o-font-feature-settings: "liga", "kern";
+  -webkit-font-feature-settings: "liga", "kern";
+  font-weight: var(--W_normal);
+  line-height: var(--LH_default);
+  text-rendering: optimizeLegibility;
+}
+
+/* Styles */
+.subtleHeader {
+  color: var(--C_textSecondary);
+  font-size: var(--FS_small);
+  letter-spacing: calc(var(--FS_small) / 8);
+  padding-bottom: calc(var(--FS_small) / 2);
+  text-transform: uppercase;
+}
+
+.accentLink {
+  color: var(--C_blue);
+}
+
+/* Scale */
+.textScale--big,
+.textScale--hero {
+  line-height: var(--LH_small);
+}
+
+.textScale--big {
+  font-size: var(--FS_big);
+}
+
+.textScale--hero {
+  font-size: var(--FS_hero);
+}
+
+/* Typefaces */
+.font--display {
+  font-family: var(--FF_display);
+}
+
+/* Composition */
+.runningText {
+  max-width: var(--measure);
+}
