@@ -1,0 +1,50 @@
+:root {
+  /* Utils */
+  --textDefaultRGB: 33, 47, 56;
+  --rootEm: 20px;
+
+  /* Colors */
+  --C_accentPrimary: #fff565;
+  --C_bgPrimary: #ffffff;
+  --C_blue: #0374dd;
+  --C_textDefault: rgb(var(--textDefaultRGB));
+  --C_textSecondary: rgba(var(--textDefaultRGB), 0.6);
+
+  /* Spacing */
+  --S_small: 0.75rem;
+  --S_default: 1rem;
+  --S_large: 2rem;
+  /* --S_default: clamp(var(--FS_body), 2vw, var(--FS_big)); */
+  --S_large: calc(var(--S_default) * 2);
+  --S_section: 12vmin;
+
+  /* Font families */
+  --FF_display: "Stanley", Georgia, Times;
+  --FF_body: "Roboto", sans-serif;
+
+  /* Type sizes 
+    Scale: 3:4
+  */
+  --FS_small: 0.75rem; /* -1st step of scale */
+  --FS_body: 1rem; /* 1st step of scale */
+  --FS_big: 1.333rem; /* 2nd step of scale */
+  /* --FS_headline: 2.369rem;  /* 3rd step of scale */
+  --FS_hero: 3.157rem; /* 4th step of scale */
+  /* --FS_hero: 4.209rem; /* 5th step of scale */
+
+  /* Type weights */
+  --W_bold: bold;
+  --W_normal: normal;
+
+  /* Line heights */
+  --LH_default: 1.5;
+  --LH_small: 1.1;
+
+  /* Measure */
+  --measure: 30em;
+}
+
+/* TODO: remove this if I end up coming up with a way to build without media queries */
+/* no custom properties in `custom-media` :( */
+@custom-media --medium-viewport (min-width: 700px);
+@custom-media --large-viewport (min-width: 950px);
