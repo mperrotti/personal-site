@@ -1,4 +1,0 @@
-@import '../customProperties.module.css';
-.section {
-	padding: var(--spaceSection) 0;
-}
