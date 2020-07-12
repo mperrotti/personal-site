@@ -12,6 +12,10 @@
   grid-column: 3 / -1;
 }
 
+.grid--stack {
+  display: block;
+}
+
 .bounds {
   margin: 0 auto;
   max-width: 85vw;
@@ -22,7 +26,27 @@
   padding: var(--S_section) 0;
 }
 
-.margin--center {
-  margin: 0 auto;
+.runningText {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: var(--measure);
   width: 100%;
+}
+
+.padBottom--lg {
+  padding-bottom: var(--S_large);
+}
+
+@media (min-width: 700px) {
+  .grid--stack {
+    display: grid;
+  }
+  .projects-set {
+    margin-left: auto;
+  }
+  .runningText {
+    margin-left: auto;
+  }
 }

@@ -8,12 +8,6 @@ body {
   background-color: var(--C_accentPrimary);
 }
 
-/* Header */
-/* TODO: rm this style from here and from the markup */
-/* .heroIntro {
-  background-color: var(--C_accentPrimary);
-} */
-
 .heroIntro-wrapper {
   grid-template-rows: repeat(3, auto);
 }
@@ -38,33 +32,27 @@ body {
 .heroIntro-body {
   align-self: center;
   grid-row: 2;
+  margin-left: 0;
 }
 
 .heroIntro-headingText--start {
   align-self: flex-end;
   grid-row: 1;
+  transform: translateX(2vw);
 }
 
 .heroIntro-headingText--end {
   align-self: flex-start;
   grid-row: 3;
+  transform: translateX(4vw);
 }
 
 /* Main content area */
-/* .summary-item {
-  font-size: var(--FS_small);
-} */
-
 .summary-item + .summary-item {
   border-top: 1px dashed;
   margin-top: var(--S_default);
   padding-top: var(--S_default);
 }
-
-/* .projectsHeader {
-  grid-column: 1 / -1;
-  padding-bottom: var(--S_default);
-} */
 
 .projects-set + .projects-set {
   margin-top: var(--S_large);
@@ -79,10 +67,19 @@ body {
 }
 
 .footer-contact {
-  align-self: end;
+  border-top: 1px solid;
   display: grid;
   font-size: var(--FS_small);
+  grid-auto-rows: max-content;
   grid-gap: var(--S_small);
   grid-row-start: 2;
   grid-template-columns: max-content 1fr;
+  padding-top: var(--S_large);
+}
+
+@media (min-width: 700px) {
+  .footer-contact {
+    border-top: 0;
+    padding-top: 0;
+  }
 }
