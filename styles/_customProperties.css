@@ -14,7 +14,6 @@
   --S_small: 0.75rem;
   --S_default: 1rem;
   --S_large: 2rem;
-  /* --S_default: clamp(var(--FS_body), 2vw, var(--FS_big)); */
   --S_large: calc(var(--S_default) * 2);
   --S_section: 12vmin;
 
@@ -22,9 +21,6 @@
   --FF_display: "Stanley", Georgia, Times;
   --FF_body: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans,
     Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-
-  /* Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif */
 
   /* Type sizes 
     Scale: 3:4
@@ -47,5 +43,3 @@
   /* Measure */
   --measure: 30em;
 }
-
-@custom-media --medium-viewport (min-width: 700px);
