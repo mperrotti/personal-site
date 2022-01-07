@@ -2,9 +2,6 @@
   "plugins": {
     "autoprefixer": {
       "grid": true
-    },
-    "postcss-custom-media": {
-      "preserve": false
     }
   }
 }
